@@ -1,8 +1,20 @@
 html {
   background: linear-gradient(177.52deg, #4b749f 2.11%, #243748 81.34%);
-  /* background: linear-gradient(#051937, #051730, #061429, #051123, #030d1c); */
+  /* background: linear-gradient(to bottom, #00d1b2, #00aeac, #008a99, #24687c, #2f4858); */
   background-repeat: no-repeat;
   height: 100%;
+}
+
+.button.is-primary {
+  color: #1E1E1E;
+  background-color: #c5d8d1;
+}
+
+.button.is-primary:hover,
+.button.is-primary:active,
+.button.is-primary:focus {
+  color: #1E1E1E;
+  background-color: #b3c4bd;
 }
 
 body {
@@ -23,7 +35,7 @@ button {
 }
 
 .borda-lista {
-  border-bottom: dotted 2px blue;
+  border-bottom: dotted 2px #4b749f;
 }
 
 input:disabled {
