@@ -1,0 +1,39 @@
+html {
+  background: linear-gradient(177.52deg, #4b749f 2.11%, #243748 81.34%);
+  /* background: linear-gradient(#051937, #051730, #061429, #051123, #030d1c); */
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h2,
+footer {
+  font-family: "Inter", sans-serif;
+}
+
+button {
+  border: none;
+}
+
+.itens-comprados {
+  text-decoration: line-through;
+}
+
+.borda-lista {
+  border-bottom: dotted 2px blue;
+}
+
+input:disabled {
+  border: none;
+  background: none;
+  color: black;
+}
+
+input {
+  border: none;
+  background: none;
+  color: black;
+}
