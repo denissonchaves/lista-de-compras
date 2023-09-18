@@ -26,6 +26,11 @@ footer {
   font-family: "Inter", sans-serif;
 }
 
+h2 {
+  color: #1E1E1E;
+  border-bottom: 1px solid rgba(30, 30, 30, 0.2);
+}
+
 button {
   border: none;
 }
@@ -34,9 +39,8 @@ button {
   text-decoration: line-through;
 }
 
-.borda-lista {
-  border-bottom: dotted 2px #4b749f;
-}
+/* .borda-lista {
+} */
 
 input:disabled {
   border: none;
