@@ -8,6 +8,7 @@ form.addEventListener("submit", function (event) {
   event.preventDefault();
   salvarItem();
   mostrarItem();
+  itensInput.value = "";
 });
 
 function salvarItem() {
