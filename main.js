@@ -46,5 +46,13 @@ function mostrarItem() {
         </div>
       </li>
     `;
+
+    const inputsCheck = document.querySelectorAll("input[type='checkbox']");
+
+    inputsCheck.forEach((input) => {
+      input.addEventListener("click", (event) => {
+        console.log(event.target.parentElement.parentElement.getAttribute("data-value"));
+      });
+    });
   });
 }
