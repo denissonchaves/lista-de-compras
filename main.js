@@ -8,7 +8,7 @@ form.addEventListener("submit", function (event) {
   event.preventDefault();
   salvarItem();
   mostrarItem();
-  itensInput.value = "";
+  itensInput.focus();
 });
 
 function salvarItem() {
@@ -28,8 +28,7 @@ function salvarItem() {
       valor: comprasItem,
     });
   }
-
-  console.log(listaDeItens);
+  itensInput.value = "";
 }
 
 function mostrarItem() {
