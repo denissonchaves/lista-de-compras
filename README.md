@@ -35,4 +35,5 @@ Input com código refatorado:
 
 Ícones de edição:
 
-<i class="fa-regular fa-floppy-disk is-clickable"></i><i class="fa-regular is-clickable fa-pen-to-square editar"></i>
+  <i class="fa-regular fa-floppy-disk is-clickable"></i>
+  <i class="fa-regular is-clickable fa-pen-to-square editar"></i>
