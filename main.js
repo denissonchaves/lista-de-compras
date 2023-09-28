@@ -75,3 +75,8 @@ function mostrarItem() {
     });
   });
 }
+
+function saveEdit() {
+  const editedItem = document.querySelector(`[data-value="${itemToEdit}"] input[type="text"]`);
+  console.log(editedItem.value);
+}
